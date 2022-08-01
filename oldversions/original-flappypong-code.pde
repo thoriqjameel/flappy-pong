@@ -18,7 +18,6 @@ float friction = 0.1;
 // scoring
 
 int score = 0;
-int maxHealth = 100;
 float health = 100;
 float healthDecrease = 1;
 int healthBarWidth = 60;
@@ -135,7 +134,6 @@ void startGame() {
   gameScreen=1;
   score = 0;
   health = 100;
-  maxHealth = 100;
 }
 void gameOver() {
   gameScreen=2;
@@ -153,7 +151,7 @@ void restart() {
 }
 
 void drawBall() {
-  fill(0);
+  fill(0, 0, 255);
   ellipse(ballX, ballY, ballSize, ballSize);
   
 }
@@ -268,7 +266,7 @@ void drawHealthText()
   fill(0);
   textAlign(TOP);
   textSize(20);
-  text(health + "/" + maxHealth, ballX-(healthBarWidth-5), ballY - 30);
+  text(health, ballX-(healthBarWidth-5), ballY - 30);
   
 }
 void decreaseHealth() {
