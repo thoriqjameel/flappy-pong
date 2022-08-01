@@ -49,4 +49,4 @@ Code changes:
 
 Code changes:
 
-*Check the code...(flappy-pong/flappypong1_1/flappypong)*
+*Check the code...(flappy-pong/flappypong1_1)*
