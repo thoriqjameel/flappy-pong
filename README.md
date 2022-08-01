@@ -3,13 +3,13 @@ Just a game. (lol)
 
   There's not really much to this.
   
-    There are 3 versions of the game.
+   There are 3 versions of the game.
     
-    1.The original
+   1.The original
     
-    2.Version 1.0.1
+   2.Version 1.0.1
     
-    3.Version 1.1.0
+   3.Version 1.1.0
 
 
 
@@ -29,21 +29,16 @@ After I copied the original code
 
 Code changes:
 
-  void score() {
-  
-    maxHealth += 2
-    
-    health += 2
-    
-    score++
-    
-   }
+    void score() {
+     maxHealth += 2
+     health += 2
+     score++
+    }
 
-float maxHealth = 255
+    float maxHealth = 255
+    float health = 255
 
-float health = 255
-
-fill(255, 255, health)
+    fill(255, 255, health)
 
 1.1.0
 -Points!
